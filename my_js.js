@@ -52,10 +52,6 @@ function reset(){
 }
 
 
-
-
-
-
 show_updates()
 
 
