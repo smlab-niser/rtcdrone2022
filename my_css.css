@@ -1,0 +1,110 @@
+:root {
+	--border-radius: 20px;
+	--theme-color-r: 140;
+	--theme-color-g: 0;
+	--theme-color-b: 255;
+}
+
+.parts{
+	/* background-color: red; */
+	width: 100%;
+	font-size: large;
+	margin: 0px;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+
+.parts-members{
+	width:19%;
+	margin: 10px 3% 5px 3%;
+	float: left;
+	background-color: rgb(187, 32, 174);
+	/* border: 1px solid white; */
+	border-radius: 10px;
+	text-align: center;
+	padding:5px 0;
+}
+
+.parts-members:hover{
+	background-color: rgb(255, 0, 255);
+	cursor: pointer;
+}
+
+@media (max-width: 768px) {
+	.parts-members{
+		width: 44%;
+	}
+}
+
+
+/* card update */
+.card-u {
+	/* background-color: rgb(255, 255, 255); */
+	margin-top: 20px;
+	width: 100%;
+	/* margin-bottom: 40px; */
+	border-radius: var(--border-radius);
+	/* padding:20px; */
+}
+
+.card-u-header {
+	border-radius: var(--border-radius) var(--border-radius) 0 0;
+	background-color: rgba(var(--theme-color-r), var(--theme-color-g), var(--theme-color-b), 0.1);
+	font-size: large;
+	padding: 10px 20px;
+	margin: 00px;
+}
+
+.card-u-body {
+	border-radius: 0 0 var(--border-radius) var(--border-radius);
+	padding: 10px 20px;
+	background-color: rgba(var(--theme-color-r), var(--theme-color-g), var(--theme-color-b), 0.2);
+	margin: 0px;
+}
+
+.card-u-title {
+	font-size: large;
+	margin: 0px;
+	color: white;
+	padding-bottom: 10px;
+}
+
+.card-u-text {
+	margin: 0px;
+	color: white;
+}
+
+
+/* card team */
+/* 
+<div class="card-t">
+    <img src="${picture}" class="card-t-img" alt="${name}'s photo">
+    <h3 class="card-t-name">${name}</h3>
+</div>
+*/
+
+.card-t{
+	background-color: rgba(var(--theme-color-r), var(--theme-color-g), var(--theme-color-b), 0.1);
+	width:27%;
+	border-radius: var(--border-radius);
+	float: left;
+	margin: 20px 2%;
+}
+
+.card-t-img{
+	width: 100%;
+	height: auto;
+	opacity: 100%;
+	border-radius: var(--border-radius) var(--border-radius) 0 0;
+	object-fit: cover;
+}
+
+.card-t-name{
+	text-align: center;
+	color: white;
+	font-size: large;
+	margin: 0px;
+	padding: 10px 0;
+}
