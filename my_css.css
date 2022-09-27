@@ -5,6 +5,16 @@
 	--theme-color-b: 255;
 }
 
+.about{
+	/* background-color: red; */
+	margin: 20px 0;
+}
+
+.about p{
+	/* background-color: red; */
+	margin: 10px 0;
+}
+
 .parts{
 	/* background-color: red; */
 	width: 100%;

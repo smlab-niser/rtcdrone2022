@@ -6,7 +6,7 @@ function show_updates() {
 
 function updates(info) {
 	var content = "";
-	for (var i = 0; i < info.length; i++) {
+	for (var i = info.length-1; i >= 0; i--) {
 		let u = info[i];
 		s = `<div class="card-u">
 		<h5 class="card-u-header">${u["date"]}</h5>
@@ -47,8 +47,8 @@ function team(info) {
 function reset(){
 	document.getElementById("updates").style.backgroundColor = "rgb(187, 32, 174)";
 	document.getElementById("team").style.backgroundColor = "rgb(187, 32, 174)";
-	document.getElementById("components").style.backgroundColor = "rgb(187, 32, 174)";
-	document.getElementById("docs").style.backgroundColor = "rgb(187, 32, 174)";
+	// document.getElementById("components").style.backgroundColor = "rgb(187, 32, 174)";
+	// document.getElementById("docs").style.backgroundColor = "rgb(187, 32, 174)";
 }
 
 
