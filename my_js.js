@@ -6,20 +6,29 @@ function show_updates() {
 
 function updates(info) {
 	var content = "";
-	for (var i = info.length-1; i >= 0; i--) {
+	for (var i = info.length - 1; i >= 0; i--) {
 		let u = info[i];
 		s = `<div class="card-u">
 		<h5 class="card-u-header">${u["date"]}</h5>
 		<div class="card-u-body">
-			<h5 class="card-u-title">${u["heading"]}</h5>
-			<p class="card-u-text">${u["content"]}</p>
-		</div>
-	</div>`
-		content += s;	
+			<h5 class="card-u-title">${u["heading"]}</h5>`
+
+		if (u["image"] != "") {
+			s += `<p class="card-u-text-i">&emsp;${u["content"]}</p>
+			<a href='${u["image"]}'>
+			<img class="card-u-image" src='${u["image"]}' alt="image of ${u["date"]}">
+			</a>`
+			console.log("image")
+		} else {
+			s += `<p class="card-u-text">&emsp;${u["content"]}</p>`
+			console.log("no image")
+		}
+
+		s += "</div></div>"
+		content += s;
 	}
 	document.getElementById("content").innerHTML = content;
-	reset();
-	document.getElementById("updates").style.backgroundColor = "#ff0000";
+	reset("updates");
 }
 
 function show_team() {
@@ -36,19 +45,21 @@ function team(info) {
 		<img src="${u["photo"]}" class="card-t-img" alt="${u["name"]}'s photo">
 		<h3 class="card-t-name">${u["name"]}</h3>
 	</div>`
-		content += s;	
+		content += s;
 	}
 	document.getElementById("content").innerHTML = content;
-	reset();
-	document.getElementById("team").style.backgroundColor = "#ff0000";
+	reset("team");
 }
 
 
-function reset(){
-	document.getElementById("updates").style.backgroundColor = "rgb(187, 32, 174)";
-	document.getElementById("team").style.backgroundColor = "rgb(187, 32, 174)";
-	// document.getElementById("components").style.backgroundColor = "rgb(187, 32, 174)";
-	// document.getElementById("docs").style.backgroundColor = "rgb(187, 32, 174)";
+
+function reset(name) {
+	document.getElementById("updates").className = "parts-members inactive";
+	document.getElementById("team").className = "parts-members inactive";
+	// document.getElementById("components").className = "parts-members inactive";
+	// document.getElementById("docs").className = "parts-members inactive";
+	console.log(name);
+	document.getElementById(name).className = "parts-members active";
 }
 
 
