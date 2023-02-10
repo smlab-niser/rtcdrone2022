@@ -3,24 +3,28 @@
     "date": "22nd June, 2022",
     "heading": "Planning",
     "content": "The group met and collectively took decisions about different things. Different team members were given different duties to read the documentation/datasheets of the various components to be used. They were also told learning which topics would help them to contribute to this project.",
-    "image": "https://picsum.photos/300/500"
+    "image": "https://picsum.photos/300/500",
+    "show": true
   },
   {
     "date": "26th June, 2022",
     "heading": "Buying things",
     "content": "We went to Jatni to buy Aluminium box pipes (Rs450/10ft) for the arms of the drone. We used switchboard plates (Sunmica) (Rs 120) for the upper and lower plates which will hold the metal arms in place. We also had to buy screws, nuts and bolts of different sizes. We also went to Bhubaneshwar once (later) to buy small screws and special rubber spacers for soft-mounting the flight controller. ",
-    "image": ""
+    "image": "",
+    "show": true
   },
   {
     "date": "27th June, 2022",
     "heading": "Basic Structure Built",
     "content": "Four equal-sized (~24cm) pieces were cut off from the long aluminium pipe for the arms. Holes were drilled into measured places of appropriate diameter. We took the help of the <strong>Central Worksop</strong> for drilling holes due to the unavailability of those appropriately sized drill bits in RTC. Later we bought those drill bits ourselves. We also cut 2 pieces of Sunmica, each of dimension 13*13cm. We drilled holes into it in appropriate positions. Then we attached the metal arms to the plates. We used two 1.5inch long M6 bolts for each arm (which makes up 8 nuts &bolts).",
-    "image": "https://picsum.photos/300"
+    "image": "https://picsum.photos/300",
+    "show": true
   },
   {
     "date": "2nd July, 2022",
     "heading": "Motors Attached",
     "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quam facere qui, quasi vero officia magnam vitae nam ipsam. Rerum veniam tempora repellat laborum provident maxime rem magni blanditiis, enim, culpa reprehenderit, natus esse! Fuga, quaerat quos ullam mollitia, amet sit praesentium recusandae tempora aperiam explicabo aliquid dolor, perferendis consequuntur.",
-    "image": "https://picsum.photos/300"
+    "image": "https://picsum.photos/300",
+    "show": true
   }
 ]

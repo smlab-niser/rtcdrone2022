@@ -1,18 +1,22 @@
 [
 	{
 		"name": "Sourabh Mahato",
-		"photo": "https://picsum.photos/200/300"
+		"photo": "team/sourabh.jpg",
+		"show": true
 	},
 	{
 		"name": "Krishna Kant Parida",
-		"photo": "https://picsum.photos/200"
+		"photo": "",
+		"show": true
 	},
 	{
 		"name": "Aritra Mukhopadhyay",
-		"photo": "https://picsum.photos/200"
+		"photo": "team/aritra.jpg",
+		"show": true
 	},
 	{
 		"name": "Shriman Keshari",
-		"photo": "https://picsum.photos/200"
+		"photo": "",
+		"show": false
 	}
 ]

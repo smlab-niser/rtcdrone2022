@@ -8,6 +8,9 @@ function updates(info) {
 	var content = "";
 	for (var i = info.length - 1; i >= 0; i--) {
 		let u = info[i];
+
+		if (!u["show"]) { continue; }
+
 		s = `<div class="card-u">
 		<h5 class="card-u-header">${u["date"]}</h5>
 		<div class="card-u-body">
@@ -41,8 +44,11 @@ function team(info) {
 	var content = "";
 	for (var i = 0; i < info.length; i++) {
 		let u = info[i];
+
+		if (!u["show"]) { continue; }
+
 		s = `<div class="card-t">
-		<img src="${u["photo"]}" class="card-t-img" alt="${u["name"]}'s photo">
+		<img src="${u["photo"]}" class="card-t-img" onerror="this.onerror=null;this.src='team/others.jpg';">
 		<h3 class="card-t-name">${u["name"]}</h3>
 	</div>`
 		content += s;
