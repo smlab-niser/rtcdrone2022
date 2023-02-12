@@ -5,7 +5,7 @@ function show_updates() {
 }
 
 function updates(info) {
-	var content = "";
+	var content = "<h3>Updates</h3>";
 	for (var i = info.length - 1; i >= 0; i--) {
 		let u = info[i];
 
@@ -41,7 +41,7 @@ function show_team() {
 }
 
 function team(info) {
-	var content = "";
+	var content = "<h3>Team</h3>";
 	for (var i = 0; i < info.length; i++) {
 		let u = info[i];
 

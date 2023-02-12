@@ -28,15 +28,15 @@
 }
 
 .active{
-	background-color: rgb(255, 130, 57);
+	background-color: rgb(255, 100, 50);;
 }
 
 .inactive{
-	background-color: rgb(187, 32, 174);
+	background-color: rgba(217, 59, 204, 0.8);
 }
 
 .inactive:hover{
-	background-color: rgb(217, 59, 204);
+	background-color: rgba(217, 59, 204, 1);
 }
 
 .parts-members{
