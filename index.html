@@ -1,37 +1,68 @@
-
 <html>
 
-    <head>
-        <title>Subhankar Mishra | RTC | Drone </title>
-        <link href="https://www.niser.ac.in/~smishra/css/smlab.css" rel="stylesheet" type="text/css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    
-    <body>
-        <div class="container">
-            <header class="item">
-                <h1>SUBHANKAR MISHRA ଶୁଭଂକର ମିଶ୍ର</h1>
-            </header>
-    
-            <p>
-                Reader-F, School of Computer Sciences, NISER <br>
-                ପାଠକ-ଏଫ, ସଂଗଣକ ବିଜ୍ଞାନ ବିଦ୍ୟାଳୟ, ନିଷେର <br>
+<head>
+    <title>Subhankar Mishra | RTC | Drone </title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="my_css.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="container">
+        <header class="item">
+            <h1>SUBHANKAR MISHRA ଶୁଭଂକର ମିଶ୍ର</h1>
+        </header>
+
+        <p>
+            Reader-F, School of Computer Sciences, NISER <br>
+            ପାଠକ-ଏଫ, ସଂଗଣକ ବିଜ୍ଞାନ ବିଦ୍ୟାଳୟ, ନିଷେର <br>
+        </p>
+        <hr>
+
+
+        <h2> Autonomous Drone</h2>
+        <div class="about">
+            <p>&emsp;The autonomous drone we have built can be operated through either a computer program or a remote
+                controller. The drone can hold itself steady in the air even when the remote control is disabled, thus
+                the name - <strong>autonomous</strong>. The program allows the user to set a predefined path of flight.
+                The drone is capable of launching and landing, all on its own. It consists of a Pixhawk 4 flight
+                controller as its prime component which includes an inbuilt gyroscope and an accelerometer. We have
+                onboard GPS module and telemetry module for obtaining on-flight stats. With this, we hope to finally
+                set foot into the exciting world of UAVs.</p>
+            <p>&emsp;For now, the we have used open source codes avalable to build the drone. We have used the <a
+                    href="http://qgroundcontrol.com/" target="_blank">QGroundControl</a> software. We plan to develop on
+                it. The scope of application for such a drone can be expanded greatly, with the addition of proximity
+                sensors, LiDAR or cameras of different sorts to sense its surroundings. The input from the sensors can
+                be used to optimize the path of the drone using machine learning algorithms. We can also use slam
+                algorithms and let it automatically determine an optimal path to its destination (avoiding the obstacles
+                in its path).
             </p>
-            <hr />
-        <h2> Autonomous Drone </h2> <br/>
-        Team Involved
-        <ul>
-            <li>NISER</li>
-        </ul>
-        <hr />
+        </div>
+
+        <div class="parts">
+            <div class="parts-members" id="updates">Updates</div>
+            <div class="parts-members" id="team">Team</div>
+            <!-- <div class="parts-members" id="components">Components </div>
+            <div class="parts-members" id="docs">Documentation </div> -->
+        </div>
+
+        <div id="content" style="overflow: hidden;">
+            <!-- all content here...
+                data populated by JS on reading the json files -->
+
+                
+
+        </div>
+
         <br> <br>
+        <hr>
         <div class="navbar">
-                <a href="index.html" >Home</a>
-                <a href="people.html" >People</a>
-                <a href="research.html" >Research</a>
-                <a href="teaching.html">Teaching</a>
-                <a href="events.html">Events</a>
-            </div>
-       </div>
-    </body>
-    
+            <a href="index.html">Home</a>
+            <a href="people.html">People</a>
+            <a href="research.html">Research</a>
+            <a href="teaching.html">Teaching</a>
+            <a href="events.html">Events</a>
+        </div>
+    </div>
+    <script src="my_js.js"></script>
+</body>

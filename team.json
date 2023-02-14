@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Sourav Mahato",
+		"photo": "team/sourav.jpg",
+		"show": true
+	},
+	{
+		"name": "Krishna Kant Parida",
+		"photo": "",
+		"show": true
+	},
+	{
+		"name": "Aritra Mukhopadhyay",
+		"photo": "team/aritra.jpg",
+		"show": true
+	},
+	{
+		"name": "Shriman Keshari",
+		"photo": "",
+		"show": false
+	}
+]
