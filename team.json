@@ -18,5 +18,10 @@
 		"name": "Shriman Keshari",
 		"photo": "",
 		"show": false
+	},
+	{
+		"name": "Sandipan Samanta",
+		"photo": "",
+		"show": true
 	}
 ]
